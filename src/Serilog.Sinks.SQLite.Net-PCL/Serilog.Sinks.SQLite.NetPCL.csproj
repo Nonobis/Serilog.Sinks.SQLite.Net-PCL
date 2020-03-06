@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <AssemblyTitle>Serilog.Sinks.SQLite</AssemblyTitle>
+        <Authors>Arnaud Dartois</Authors>
+        <AssemblyName>Serilog.Sinks.SQLite.NetPCL</AssemblyName>
+        <Description>Serilog event sink that writes to SQLite database using SqliteNet-Pcl.
+Forked from Serilog.Sinks.SQLite from https://github.com/saleem-mirza/serilog-sinks-sqlite</Description>
+        <PackageId>Serilog.Sinks.SQLite.NetPCL</PackageId>
+        <PackageTags>serilog;logging;SQLiteNet-Pcl</PackageTags>
+        <PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
+        <PackageProjectUrl>http://serilog.net</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nonobis/serilog-sinks-sqliteNet-pcl</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>Copyright © A.Dartois 2020</Copyright>
+        <AssemblyVersion>0.0.1.0</AssemblyVersion>
+        <Version>0.0.1</Version>
+        <SignAssembly>false</SignAssembly>
+        <AssemblyOriginatorKeyFile>Serilog.snk</AssemblyOriginatorKeyFile>
+        <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+        <FileVersion>0.0.1.0</FileVersion>
+    </PropertyGroup>
+    <PropertyGroup>
+        <ContentSQLiteInteropFiles>true</ContentSQLiteInteropFiles>
+        <Company>Arnaud Dartois</Company>
+        <Product>Serilog.Sinks.SQLite.NetPCL</Product>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(VersionSuffix)'!='' ">
+        <Version>$(Version)-$(VersionSuffix)</Version>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+        <PackageReference Include="Serilog" Version="2.9.0" />
+        <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
+    </ItemGroup>
+</Project>
