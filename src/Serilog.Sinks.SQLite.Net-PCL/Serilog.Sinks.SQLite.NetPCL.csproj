@@ -9,7 +9,7 @@ Forked from Serilog.Sinks.SQLite from https://github.com/saleem-mirza/serilog-si
         <PackageTags>serilog;logging;SQLiteNet-Pcl</PackageTags>
         <PackageIconUrl>http://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
         <PackageProjectUrl>http://serilog.net</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/nonobis/serilog-sinks-sqliteNet-pcl</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Nonobis/Serilog.Sinks.SQLite.Net-PCL</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <Copyright>Copyright © A.Dartois 2020</Copyright>
         <AssemblyVersion>0.0.1.0</AssemblyVersion>
