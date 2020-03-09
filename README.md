@@ -4,7 +4,7 @@ A lightweight high performance Serilog sink that writes to SQLite database using
 Perfect for stocking logs in a sqlite database in your Xamarin.Forms project :)
 
 ## Getting started
-Install [Serilog.Sinks.SQLite.Net-PCL](https://www.nuget.org/packages/Serilog.Sinks.SQLite.Net-PCL) from NuGet
+Install [Serilog.Sinks.SQLite.NetPCL](https://www.nuget.org/packages/Serilog.Sinks.SQLite.NetPCL) from NuGet
 
 Configure logger by calling `WriteTo.SQLiteNetPcl()`
 
